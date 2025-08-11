@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Jul 27 16:09:00 2025
+# Process ID: 42668
+# Current directory: D:/FSRCNN/ip_repo/Shrinking_Layer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27300 D:\FSRCNN\ip_repo\Shrinking_Layer\Shrinking_Layer.xpr
+# Log file: D:/FSRCNN/ip_repo/Shrinking_Layer/vivado.log
+# Journal file: D:/FSRCNN/ip_repo/Shrinking_Layer\vivado.jou
+# Running On: DESKTOP-INFKKCG, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 16930 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/FSRCNN/ip_repo/Shrinking_Layer/Shrinking_Layer.xpr
+launch_simulation
+open_wave_config D:/FSRCNN/ip_repo/Shrinking_Layer/tb_Shrinking_Layer_behav.wcfg
+source tb_Shrinking_Layer.tcl
+update_compile_order -fileset sources_1
+relaunch_sim
+run 10 ms
+relaunch_sim
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config D:/FSRCNN/ip_repo/Shrinking_Layer/tb_Shrinking_Layer_behav.wcfg
+source tb_Shrinking_Layer.tcl
+relaunch_sim
+relaunch_sim
+close_sim

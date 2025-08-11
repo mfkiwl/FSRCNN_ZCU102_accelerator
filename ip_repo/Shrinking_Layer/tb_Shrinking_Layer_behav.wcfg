@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Shrinking_Layer_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_Shrinking_Layer" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="320.600 ns"></ZoomStartTime>
+      <ZoomEndTime time="352.351 ns"></ZoomEndTime>
+      <Cursor1Time time="145.100 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/tb_Shrinking_Layer/axi_clk" type="logic">
+      <obj_property name="ElementShortName">axi_clk</obj_property>
+      <obj_property name="ObjectShortName">axi_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Shrinking_Layer/axi_reset_n" type="logic">
+      <obj_property name="ElementShortName">axi_reset_n</obj_property>
+      <obj_property name="ObjectShortName">axi_reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Shrinking_Layer/s_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Shrinking_Layer/s_axis_tready" type="logic">
+      <obj_property name="ElementShortName">s_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Shrinking_Layer/s_axis_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_tdata[127:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata[127:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Shrinking_Layer/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Shrinking_Layer/m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[95:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[95:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Shrinking_Layer/m_axis_tready" type="logic">
+      <obj_property name="ElementShortName">m_axis_tready</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Shrinking_Layer/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Shrinking_Layer/toggle" type="logic">
+      <obj_property name="ElementShortName">toggle</obj_property>
+      <obj_property name="ObjectShortName">toggle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Shrinking_Layer/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Shrinking_Layer/INPUT_CHANNEL" type="array">
+      <obj_property name="ElementShortName">INPUT_CHANNEL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INPUT_CHANNEL[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Shrinking_Layer/OUTPUT_CHANNEL" type="array">
+      <obj_property name="ElementShortName">OUTPUT_CHANNEL[31:0]</obj_property>
+      <obj_property name="ObjectShortName">OUTPUT_CHANNEL[31:0]</obj_property>
+   </wvobject>
+</wave_config>

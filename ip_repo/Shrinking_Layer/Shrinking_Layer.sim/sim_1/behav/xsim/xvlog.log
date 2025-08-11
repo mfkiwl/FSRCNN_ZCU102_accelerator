@@ -1,0 +1,52 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FSRCNN/ip_repo/Shrinking_Layer/Shrinking_Layer.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_generator_0
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_xpm_cdc_sync_rst
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_blk_mem_gen_prim_width__parameterized0
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_blk_mem_gen_prim_width__parameterized1
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_blk_mem_gen_prim_width__parameterized2
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_blk_mem_gen_prim_wrapper
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_blk_mem_gen_prim_wrapper__parameterized0
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_blk_mem_gen_prim_wrapper__parameterized1
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_blk_mem_gen_prim_wrapper__parameterized2
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_blk_mem_gen_v8_4_6
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_blk_mem_gen_v8_4_6_synth
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_compare
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_compare_0
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_compare_1
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_compare_2
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_fifo_generator_ramfifo
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_fifo_generator_top
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_fifo_generator_v13_2_8
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_fifo_generator_v13_2_8_synth
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_memory
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_rd_bin_cntr
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_rd_fwft
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_rd_logic
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_rd_status_flags_ss
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_reset_blk_ramfifo
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_wr_bin_cntr
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_wr_logic
+INFO: [VRFC 10-311] analyzing module fifo_generator_0_wr_status_flags_ss
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FSRCNN/ip_repo/Shrinking_Layer/Shrinking_Layer.srcs/sources_1/imports/new/AXIS_REGISTER.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXIS_REGISTER
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FSRCNN/ip_repo/Shrinking_Layer/Shrinking_Layer.srcs/sources_1/new/Adder_Tree.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder_Tree
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FSRCNN/ip_repo/Shrinking_Layer/Shrinking_Layer.srcs/sources_1/new/Convolution.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Convolution
+INFO: [VRFC 10-311] analyzing module PE_Array
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FSRCNN/ip_repo/Shrinking_Layer/Shrinking_Layer.srcs/sources_1/new/Multiplier_DSP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiplier_DSP
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FSRCNN/ip_repo/Shrinking_Layer/Shrinking_Layer.srcs/sources_1/new/Shrinking_Layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Shrinking_Layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FSRCNN/ip_repo/Shrinking_Layer/Shrinking_Layer.srcs/sources_1/imports/FSRCNN/pipelined_multiplier_2stage.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipelined_multiplier_2stage
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FSRCNN/ip_repo/Shrinking_Layer/Shrinking_Layer.srcs/sim_1/new/tb_Shrinking_Layer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_Shrinking_Layer
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FSRCNN/ip_repo/Shrinking_Layer/Shrinking_Layer.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'glbl' [D:/FSRCNN/ip_repo/Shrinking_Layer/Shrinking_Layer.sim/sim_1/behav/xsim/glbl.v:6]
