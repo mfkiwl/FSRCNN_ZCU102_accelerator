@@ -1,15 +1,17 @@
-# Shrinking_Layer_DDR_Test 폴더 안의 모든 파일/폴더 무시
-Shrinking_Layer_DDR_Test/**
+# [A[BShrinking_Layer_DDR_Test 폴더 안의 모든 파일/폴더 무시
+[A[BShrinking_Layer_DDR_Test/**
 
-# Shrinking_Layer_DDR_Test 폴더 자체는 포함
-!Shrinking_Layer_DDR_Test/
+# [A[BShrinking_Layer_DDR_Test 폴더 자체는 포함
+![A[BShrinking_Layer_DDR_Test/
 
 # 예외적으로 포함할 항목들
-!Shrinking_Layer_DDR_Test/*.xpr
-!Shrinking_Layer_DDR_Test/Shrinking_Layer_DDR_Test.srcs/
-!Shrinking_Layer_DDR_Test/Shrinking_Layer_DDR_Test.srcs/**
-!Shrinking_Layer_DDR_Test/workspace/
-!Shrinking_Layer_DDR_Test/workspace/**
+![A[BShrinking_Layer_DDR_Test/*.xpr
+![A[BShrinking_Layer_DDR_Test/[A[BShrinking_Layer_DDR_Test.srcs/
+![A[BShrinking_Layer_DDR_Test/[A[BShrinking_Layer_DDR_Test.srcs/**
+![A[BShrinking_Layer_DDR_Test/workspace/
+![A[BShrinking_Layer_DDR_Test/workspace/**
+![A[BShrinking_Layer_DDR_Test/ip_user_files/
+![A[BShrinking_Layer_DDR_Test/ip_user_files/**
 
 # Vivado 자동 생성 폴더 무시
 *.jou
