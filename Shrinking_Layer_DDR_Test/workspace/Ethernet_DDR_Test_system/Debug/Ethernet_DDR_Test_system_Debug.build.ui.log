@@ -1,0 +1,10 @@
+2025-08-08T17:53:55.233407800255-17:53:55 **** Incremental Build of configuration Debug for project Ethernet_DDR_Test_system ****
+000-make all 
+000-Generating bif file for the system project
+000-generate_system_bif.bat 50342 D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper_1/export/Shrinking_Layer_DDR_Test_wrapper_1/Shrinking_Layer_DDR_Test_wrapper_1.xpfm standalone_psu_cortexa53_0 D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Ethernet_DDR_Test_system/Debug/system.bif
+000-sdcard_gen --xpfm D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper_1/export/Shrinking_Layer_DDR_Test_wrapper_1/Shrinking_Layer_DDR_Test_wrapper_1.xpfm --sys_config Shrinking_Layer_DDR_Test_wrapper_1 --bif D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Ethernet_DDR_Test_system/Debug/system.bif --bitstream D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Ethernet_DDR_Test/_ide/bitstream/Shrinking_Layer_DDR_Test_wrapper.bit --elf D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Ethernet_DDR_Test/Debug/Ethernet_DDR_Test.elf,psu_cortexa53_0
+000-creating BOOT.BIN using D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Ethernet_DDR_Test/_ide/bitstream/Shrinking_Layer_DDR_Test_wrapper.bit
+000-Running D:/Xilinx/Vitis/2023.1/bin/bootgen -arch zynqmp -image D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Ethernet_DDR_Test_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+00255-
+17:54:06 Build Finished (took 10s.854ms)
+

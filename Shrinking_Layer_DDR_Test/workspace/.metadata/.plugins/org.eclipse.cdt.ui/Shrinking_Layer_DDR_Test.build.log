@@ -1,0 +1,21 @@
+20:41:32 **** Build of configuration Debug for project Shrinking_Layer_DDR_Test ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper/export/Shrinking_Layer_DDR_Test_wrapper/sw/Shrinking_Layer_DDR_Test_wrapper/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Shrinking_Layer_DDR_Test.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper/export/Shrinking_Layer_DDR_Test_wrapper/sw/Shrinking_Layer_DDR_Test_wrapper/standalone_psu_cortexa53_0/bsplib/lib -o "Shrinking_Layer_DDR_Test.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Shrinking_Layer_DDR_Test.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size Shrinking_Layer_DDR_Test.elf  |tee "Shrinking_Layer_DDR_Test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+1888677	   4344	 942395	2835416	 2b43d8	Shrinking_Layer_DDR_Test.elf
+'Finished building: Shrinking_Layer_DDR_Test.elf.size'
+' '
+
+20:41:37 Build Finished (took 5s.149ms)
+

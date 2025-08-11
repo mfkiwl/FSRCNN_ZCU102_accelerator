@@ -1,0 +1,27 @@
+Nothing to build in platform 'Shrinking_Layer_DDR_Test_wrapper_1'
+
+17:53:51 **** Incremental Build of configuration Debug for project Ethernet_DDR_Test ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper_1/export/Shrinking_Layer_DDR_Test_wrapper_1/sw/Shrinking_Layer_DDR_Test_wrapper_1/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: Ethernet_DDR_Test.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper_1/export/Shrinking_Layer_DDR_Test_wrapper_1/sw/Shrinking_Layer_DDR_Test_wrapper_1/standalone_psu_cortexa53_0/bsplib/lib -o "Ethernet_DDR_Test.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: Ethernet_DDR_Test.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size Ethernet_DDR_Test.elf  |tee "Ethernet_DDR_Test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+1973339	   7784	8540453	10521576	 a08be8	Ethernet_DDR_Test.elf
+'Finished building: Ethernet_DDR_Test.elf.size'
+' '
+17:53:55 **** Incremental Build of configuration Debug for project Ethernet_DDR_Test_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 50342 D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper_1/export/Shrinking_Layer_DDR_Test_wrapper_1/Shrinking_Layer_DDR_Test_wrapper_1.xpfm standalone_psu_cortexa53_0 D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Ethernet_DDR_Test_system/Debug/system.bif
+sdcard_gen --xpfm D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper_1/export/Shrinking_Layer_DDR_Test_wrapper_1/Shrinking_Layer_DDR_Test_wrapper_1.xpfm --sys_config Shrinking_Layer_DDR_Test_wrapper_1 --bif D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Ethernet_DDR_Test_system/Debug/system.bif --bitstream D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Ethernet_DDR_Test/_ide/bitstream/Shrinking_Layer_DDR_Test_wrapper.bit --elf D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Ethernet_DDR_Test/Debug/Ethernet_DDR_Test.elf,psu_cortexa53_0
+creating BOOT.BIN using D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Ethernet_DDR_Test/_ide/bitstream/Shrinking_Layer_DDR_Test_wrapper.bit
+Running D:/Xilinx/Vitis/2023.1/bin/bootgen -arch zynqmp -image D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Ethernet_DDR_Test_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN

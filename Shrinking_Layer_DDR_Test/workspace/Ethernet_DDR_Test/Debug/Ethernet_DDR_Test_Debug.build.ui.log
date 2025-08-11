@@ -1,0 +1,21 @@
+2025-08-08T17:53:51.25839500255-17:53:51 **** Incremental Build of configuration Debug for project Ethernet_DDR_Test ****
+000-make all 
+000-'Building file: ../src/main.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper_1/export/Shrinking_Layer_DDR_Test_wrapper_1/sw/Shrinking_Layer_DDR_Test_wrapper_1/standalone_psu_cortexa53_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-'Finished building: ../src/main.c'
+000-' '
+000-'Building target: Ethernet_DDR_Test.elf'
+000-'Invoking: ARM v8 gcc linker'
+000-aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper_1/export/Shrinking_Layer_DDR_Test_wrapper_1/sw/Shrinking_Layer_DDR_Test_wrapper_1/standalone_psu_cortexa53_0/bsplib/lib -o "Ethernet_DDR_Test.elf"  ./src/echo.o ./src/i2c_access.o ./src/iic_phyreset.o ./src/main.o ./src/platform.o ./src/platform_mb.o ./src/platform_ppc.o ./src/platform_zynq.o ./src/platform_zynqmp.o ./src/sfp.o ./src/si5324.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+000-'Finished building target: Ethernet_DDR_Test.elf'
+000-' '
+000-'Invoking: ARM v8 Print Size'
+000-aarch64-none-elf-size Ethernet_DDR_Test.elf  |tee "Ethernet_DDR_Test.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-1973339	   7784	8540453	10521576	 a08be8	Ethernet_DDR_Test.elf
+000-'Finished building: Ethernet_DDR_Test.elf.size'
+000-' '
+00255-
+17:53:54 Build Finished (took 3s.610ms)
+

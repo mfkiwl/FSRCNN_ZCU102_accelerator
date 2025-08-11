@@ -4,12 +4,10 @@ Shrinking_Layer_DDR_Test/**
 # Shrinking_Layer_DDR_Test 폴더 자체는 포함
 !Shrinking_Layer_DDR_Test/
 
-# 필요한 파일/폴더만 예외 처리
+# 예외적으로 포함할 항목들
 !Shrinking_Layer_DDR_Test/*.xpr
-!Shrinking_Layer_DDR_Test/srcs/
-!Shrinking_Layer_DDR_Test/srcs/**
-!Shrinking_Layer_DDR_Test/bd/
-!Shrinking_Layer_DDR_Test/bd/**
+!Shrinking_Layer_DDR_Test/Shrinking_Layer_DDR_Test.srcs/
+!Shrinking_Layer_DDR_Test/Shrinking_Layer_DDR_Test.srcs/**
 !Shrinking_Layer_DDR_Test/workspace/
 !Shrinking_Layer_DDR_Test/workspace/**
 

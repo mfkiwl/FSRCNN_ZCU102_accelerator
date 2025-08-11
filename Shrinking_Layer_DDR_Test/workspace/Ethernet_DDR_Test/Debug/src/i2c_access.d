@@ -1,0 +1,5 @@
+src/i2c_access.o src/i2c_access.o: ../src/i2c_access.c \
+ D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper_1/export/Shrinking_Layer_DDR_Test_wrapper_1/sw/Shrinking_Layer_DDR_Test_wrapper_1/standalone_psu_cortexa53_0/bspinclude/include/xparameters.h \
+ D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper_1/export/Shrinking_Layer_DDR_Test_wrapper_1/sw/Shrinking_Layer_DDR_Test_wrapper_1/standalone_psu_cortexa53_0/bspinclude/include/xparameters_ps.h
+D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper_1/export/Shrinking_Layer_DDR_Test_wrapper_1/sw/Shrinking_Layer_DDR_Test_wrapper_1/standalone_psu_cortexa53_0/bspinclude/include/xparameters.h:
+D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper_1/export/Shrinking_Layer_DDR_Test_wrapper_1/sw/Shrinking_Layer_DDR_Test_wrapper_1/standalone_psu_cortexa53_0/bspinclude/include/xparameters_ps.h:
