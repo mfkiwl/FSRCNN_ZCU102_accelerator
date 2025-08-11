@@ -1,0 +1,91 @@
+/*
+ * main.c
+ *
+ *  Created on: 2025. 7. 22.
+ *      Author: Á¶¼öÈ¯
+ */
+
+#include "xil_printf.h"
+#include "xil_cache.h"
+#include "xaxidma.h"
+#include "xparameters.h"
+#include "sleep.h"
+#include "xuartps.h"
+
+#include "frame1.h"
+#include "frame2.h"
+
+#define WIDTH    320
+#define HEIGHT   180
+#define INPUT_CHANNEL 16
+#define OUTPUT_CHANNEL 12
+#define PIXELS   (WIDTH * HEIGHT)
+#define FRAME_BYTES  (PIXELS * INPUT_CHANNEL)
+
+
+u32 checkHalted(u32 baseAddress, u32 offset);
+
+int main(){
+   XAxiDma_Config *myDmaConfig;
+   XAxiDma myDma;
+   u32 status;
+   static u8 rx_buffer[FRAME_BYTES] __attribute__((aligned(32)));
+
+
+   xil_printf("Starting in:\r\n");
+   for (int t = 1; t <= 20; ++t) {
+       sleep(1);
+       xil_printf("  %2d sec\r\n", t);
+   }
+
+   myDmaConfig = XAxiDma_LookupConfigBaseAddr(XPAR_AXI_DMA_0_BASEADDR);
+   status = XAxiDma_CfgInitialize(&myDma, myDmaConfig);
+    if(status != XST_SUCCESS){
+        print("DMA initialization failed\n");
+        return -1;
+    }
+   print("DMA initialization success..\n");
+   status = checkHalted(XPAR_AXI_DMA_0_BASEADDR,0x4);
+   xil_printf("Status before data transfer %0x\n",status);
+
+   Xil_DCacheFlushRange((UINTPTR)frame1_data, FRAME_BYTES);
+   status = XAxiDma_SimpleTransfer(&myDma, (UINTPTR)rx_buffer, OUT_FRAME_BYTES, XAXIDMA_DEVICE_TO_DMA);
+   status = XAxiDma_SimpleTransfer(&myDma, (UINTPTR)frame1_data, FRAME_BYTES, XAXIDMA_DMA_TO_DEVICE);
+
+
+   Xil_DCacheInvalidateRange((UINTPTR)rx_buffer, OUT_FRAME_BYTES);
+   for(int i = 0 ; i < 120; i++){
+	   xil_printf("[%d] received data: %0x\n", i ,rx_buffer[i]);
+   }
+   xil_printf("Starting in:\r\n");
+   for (int t = 1; t <= 20; ++t) {
+       sleep(1);
+       xil_printf("  %2d sec\r\n", t);
+   }
+
+   Xil_DCacheFlushRange((UINTPTR)frame2_data, FRAME_BYTES);
+   status = XAxiDma_SimpleTransfer(&myDma, (UINTPTR)rx_buffer, FRAME_BYTES, XAXIDMA_DEVICE_TO_DMA);
+   status = XAxiDma_SimpleTransfer(&myDma, (UINTPTR)frame2_data, FRAME_BYTES , XAXIDMA_DMA_TO_DEVICE);
+   status = checkHalted(XPAR_AXI_DMA_0_BASEADDR, 0x4);
+
+
+   Xil_DCacheInvalidateRange((UINTPTR)rx_buffer, FRAME_BYTES);
+   for(int i = 0 ; i < 120; i++){
+	   xil_printf("[%d] received data: %0x\n", i ,rx_buffer[i]);
+   }
+
+    while(status != 1){
+        status = checkHalted(XPAR_AXI_DMA_0_BASEADDR, 0x4);
+    }
+    status = checkHalted(XPAR_AXI_DMA_0_BASEADDR, 0x34);
+    while(status != 1){
+        status = checkHalted(XPAR_AXI_DMA_0_BASEADDR, 0x34);
+    }
+
+}
+
+u32 checkHalted(u32 baseAddress, u32 offset){
+    u32 status;
+    status = (XAxiDma_ReadReg(baseAddress, offset)) & XAXIDMA_HALTED_MASK;
+    return status;
+}

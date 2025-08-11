@@ -1,0 +1,231 @@
+timestamp=[2025-07-22 22:37:27], mode=WORKBENCH_START, duration=0:00:15.228, duration_ms=15228, data={}
+timestamp=[2025-07-22 22:37:27], mode=WORKBENCH_UI_INIT, duration=0:00:00.026, duration_ms=26, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2025-07-22 22:37:30], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.593, duration_ms=1593, data={}
+timestamp=[2025-07-22 22:40:12], mode=APP_CREATION, duration=0:00:53.940, duration_ms=53940, data={name=Shrinking_Layer_DDR_Test, project_type=sdk, os=standalone, processor=psu_cortexa53, runtime=cpp, platform=Shrinking_Layer_DDR_Test_wrapper, application_type=application}
+timestamp=[2025-07-22 22:48:04], mode=PLATFORM_GENERATION, duration=0:01:43.389, duration_ms=103389, data={name=Shrinking_Layer_DDR_Test_wrapper}
+timestamp=[2025-07-22 22:48:06], mode=BUILD, duration=0:00:02.727, duration_ms=2727, data={name=Shrinking_Layer_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 22:48:45], mode=BUILD, duration=0:00:02.189, duration_ms=2189, data={name=Shrinking_Layer_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 22:49:29], mode=PLATFORM_GENERATION, duration=0:00:15.613, duration_ms=15613, data={name=Shrinking_Layer_DDR_Test_wrapper}
+timestamp=[2025-07-22 22:49:29], mode=BUILD, duration=0:00:00.271, duration_ms=271, data={name=Shrinking_Layer_DDR_Test, configuration=Debug, clean_build=true}
+timestamp=[2025-07-22 22:50:57], mode=PLATFORM_GENERATION, duration=0:01:28.203, duration_ms=88203, data={name=Shrinking_Layer_DDR_Test_wrapper}
+timestamp=[2025-07-22 22:51:00], mode=BUILD, duration=0:00:02.634, duration_ms=2634, data={name=Shrinking_Layer_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-22 22:51:56], mode=PLATFORM_GENERATION, duration=0:00:15.820, duration_ms=15820, data={name=Shrinking_Layer_DDR_Test_wrapper}
+timestamp=[2025-07-22 22:51:56], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=Shrinking_Layer_DDR_Test, configuration=Debug, clean_build=true}
+timestamp=[2025-07-22 22:53:39], mode=PLATFORM_GENERATION, duration=0:01:28.876, duration_ms=88876, data={name=Shrinking_Layer_DDR_Test_wrapper}
+timestamp=[2025-07-22 22:53:42], mode=BUILD, duration=0:00:03.616, duration_ms=3616, data={name=Shrinking_Layer_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-23 15:02:19], mode=WORKBENCH_START, duration=0:00:12.708, duration_ms=12708, data={}
+timestamp=[2025-07-23 15:02:19], mode=WORKBENCH_UI_INIT, duration=0:00:00.203, duration_ms=203, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,Shrinking_Layer_DDR_Test,Shrinking_Layer_DDR_Test_system,Shrinking_Layer_DDR_Test_wrapper}
+timestamp=[2025-07-23 15:02:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.210, duration_ms=2210, data={}
+timestamp=[2025-07-23 16:22:14], mode=PLATFORM_GENERATION, duration=0:01:01.504, duration_ms=61504, data={name=Shrinking_Layer_DDR_Test_wrapper}
+timestamp=[2025-07-23 16:22:15], mode=BUILD, duration=0:00:00.412, duration_ms=412, data={name=Shrinking_Layer_DDR_Test, configuration=Debug, clean_build=true}
+timestamp=[2025-07-23 16:25:13], mode=PLATFORM_GENERATION, duration=0:02:57.871, duration_ms=177871, data={name=Shrinking_Layer_DDR_Test_wrapper}
+timestamp=[2025-07-23 16:25:49], mode=BUILD, duration=0:00:06.559, duration_ms=6559, data={name=Shrinking_Layer_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-24 15:17:11], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.618, duration_ms=1618, data={}
+timestamp=[2025-07-24 15:17:13], mode=WORKBENCH_START, duration=0:00:14.582, duration_ms=14582, data={}
+timestamp=[2025-07-24 15:17:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.202, duration_ms=202, data={editors_count=5, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,Shrinking_Layer_DDR_Test,Shrinking_Layer_DDR_Test_system,Shrinking_Layer_DDR_Test_wrapper}
+timestamp=[2025-07-24 15:22:54], mode=APP_CREATION, duration=0:00:58.638, duration_ms=58638, data={name=Ethernet_DDR_Test, project_type=sdk, os=standalone, processor=psu_cortexa53, runtime=cpp, platform=Shrinking_Layer_DDR_Test_wrapper_1, application_type=application}
+timestamp=[2025-07-24 22:21:22], mode=PLATFORM_GENERATION, duration=0:02:02.055, duration_ms=122055, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-07-24 22:21:27], mode=BUILD, duration=0:00:04.166, duration_ms=4166, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-25 15:18:05], mode=WORKBENCH_START, duration=0:00:12.387, duration_ms=12387, data={}
+timestamp=[2025-07-25 15:18:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.596, duration_ms=596, data={editors_count=11, platform_editors_count=0, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=Ethernet_DDR_Test,Ethernet_DDR_Test_system,RemoteSystemsTempFiles,Shrinking_Layer_DDR_Test,Shrinking_Layer_DDR_Test_system,Shrinking_Layer_DDR_Test_wrapper,Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-07-25 15:18:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.511, duration_ms=2511, data={}
+timestamp=[2025-07-25 20:11:35], mode=WORKBENCH_START, duration=0:00:09.823, duration_ms=9823, data={}
+timestamp=[2025-07-25 20:11:37], mode=WORKBENCH_UI_INIT, duration=0:00:01.382, duration_ms=1382, data={editors_count=11, platform_editors_count=0, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=Ethernet_DDR_Test,Ethernet_DDR_Test_system,RemoteSystemsTempFiles,Shrinking_Layer_DDR_Test,Shrinking_Layer_DDR_Test_system,Shrinking_Layer_DDR_Test_wrapper,Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-07-25 20:11:39], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.793, duration_ms=1793, data={}
+timestamp=[2025-07-25 20:41:07], mode=PLATFORM_GENERATION, duration=0:01:41.696, duration_ms=101696, data={name=Shrinking_Layer_DDR_Test_wrapper}
+timestamp=[2025-07-25 20:41:37], mode=BUILD, duration=0:00:05.191, duration_ms=5191, data={name=Shrinking_Layer_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-26 23:59:22], mode=WORKBENCH_START, duration=0:00:15.952, duration_ms=15952, data={}
+timestamp=[2025-07-26 23:59:24], mode=WORKBENCH_UI_INIT, duration=0:00:01.809, duration_ms=1809, data={editors_count=11, platform_editors_count=0, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=Ethernet_DDR_Test,Ethernet_DDR_Test_system,RemoteSystemsTempFiles,Shrinking_Layer_DDR_Test,Shrinking_Layer_DDR_Test_system,Shrinking_Layer_DDR_Test_wrapper,Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-07-26 23:59:27], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.832, duration_ms=2832, data={}
+timestamp=[2025-07-27 00:09:38], mode=PLATFORM_GENERATION, duration=0:02:13.172, duration_ms=133172, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-07-27 00:10:06], mode=BUILD, duration=0:00:04.321, duration_ms=4321, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 00:15:39], mode=BUILD, duration=0:00:05.819, duration_ms=5819, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 00:16:44], mode=PLATFORM_GENERATION, duration=0:00:31.801, duration_ms=31801, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-07-27 00:16:44], mode=BUILD, duration=0:00:00.496, duration_ms=496, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 00:16:45], mode=BUILD, duration=0:00:00.448, duration_ms=448, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 00:19:53], mode=PLATFORM_GENERATION, duration=0:03:04.887, duration_ms=184887, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-07-27 00:20:03], mode=BUILD, duration=0:00:09.863, duration_ms=9863, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 00:25:08], mode=BUILD, duration=0:00:02.431, duration_ms=2431, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 00:28:11], mode=BUILD, duration=0:00:02.225, duration_ms=2225, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 00:28:31], mode=BUILD, duration=0:00:19.182, duration_ms=19182, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 00:47:58], mode=BUILD, duration=0:00:00.497, duration_ms=497, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 00:48:18], mode=BUILD, duration=0:00:19.066, duration_ms=19066, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 00:56:51], mode=PLATFORM_GENERATION, duration=0:00:18.911, duration_ms=18911, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-07-27 00:56:52], mode=BUILD, duration=0:00:00.272, duration_ms=272, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 00:56:52], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=true}
+timestamp=[2025-07-27 00:58:59], mode=PLATFORM_GENERATION, duration=0:02:06.993, duration_ms=126993, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-07-27 00:59:08], mode=BUILD, duration=0:00:08.531, duration_ms=8531, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-27 00:59:23], mode=BUILD, duration=0:00:14.142, duration_ms=14142, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-29 02:04:13], mode=WORKBENCH_START, duration=0:00:14.467, duration_ms=14467, data={}
+timestamp=[2025-07-29 02:04:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.583, duration_ms=583, data={editors_count=16, platform_editors_count=2, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=Ethernet_DDR_Test,Ethernet_DDR_Test_system,RemoteSystemsTempFiles,Shrinking_Layer_DDR_Test,Shrinking_Layer_DDR_Test_system,Shrinking_Layer_DDR_Test_wrapper,Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-07-29 02:04:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.341, duration_ms=2341, data={}
+timestamp=[2025-07-31 15:22:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.660, duration_ms=2660, data={}
+timestamp=[2025-07-31 15:22:35], mode=WORKBENCH_START, duration=0:00:47.782, duration_ms=47782, data={}
+timestamp=[2025-07-31 15:22:35], mode=WORKBENCH_UI_INIT, duration=0:00:00.472, duration_ms=472, data={editors_count=14, platform_editors_count=2, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=Ethernet_DDR_Test,Ethernet_DDR_Test_system,RemoteSystemsTempFiles,Shrinking_Layer_DDR_Test,Shrinking_Layer_DDR_Test_system,Shrinking_Layer_DDR_Test_wrapper,Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-07-31 15:29:30], mode=PLATFORM_GENERATION, duration=0:01:43.139, duration_ms=103139, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-07-31 15:30:13], mode=BUILD, duration=0:00:06.576, duration_ms=6576, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 15:30:33], mode=BUILD, duration=0:00:18.968, duration_ms=18968, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 15:37:12], mode=BUILD, duration=0:00:06.311, duration_ms=6311, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 15:37:33], mode=BUILD, duration=0:00:20.363, duration_ms=20363, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 15:48:33], mode=BUILD, duration=0:00:06.670, duration_ms=6670, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 15:48:50], mode=BUILD, duration=0:00:16.405, duration_ms=16405, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 15:52:07], mode=BUILD, duration=0:00:04.975, duration_ms=4975, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 15:52:25], mode=BUILD, duration=0:00:17.351, duration_ms=17351, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 15:59:22], mode=BUILD, duration=0:00:07.005, duration_ms=7005, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 15:59:39], mode=BUILD, duration=0:00:16.909, duration_ms=16909, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 16:04:02], mode=BUILD, duration=0:00:04.353, duration_ms=4353, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 16:04:36], mode=BUILD, duration=0:00:05.053, duration_ms=5053, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 16:04:54], mode=BUILD, duration=0:00:17.619, duration_ms=17619, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 16:17:21], mode=BUILD, duration=0:00:05.821, duration_ms=5821, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 16:18:31], mode=BUILD, duration=0:00:05.507, duration_ms=5507, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 16:18:53], mode=BUILD, duration=0:00:00.933, duration_ms=933, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 16:19:52], mode=BUILD, duration=0:00:06.421, duration_ms=6421, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 16:20:10], mode=BUILD, duration=0:00:17.831, duration_ms=17831, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 16:30:39], mode=BUILD, duration=0:00:06.456, duration_ms=6456, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-07-31 16:31:18], mode=BUILD, duration=0:00:38.791, duration_ms=38791, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-04 20:55:49], mode=WORKBENCH_START, duration=0:00:10.721, duration_ms=10721, data={}
+timestamp=[2025-08-04 20:55:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.217, duration_ms=217, data={editors_count=5, platform_editors_count=0, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=Ethernet_DDR_Test,Ethernet_DDR_Test_system,RemoteSystemsTempFiles,Shrinking_Layer_DDR_Test,Shrinking_Layer_DDR_Test_system,Shrinking_Layer_DDR_Test_wrapper,Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-04 20:55:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.689, duration_ms=1689, data={}
+timestamp=[2025-08-04 21:17:17], mode=BUILD, duration=0:00:00.514, duration_ms=514, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-04 21:17:29], mode=BUILD, duration=0:00:10.896, duration_ms=10896, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-04 21:30:43], mode=BUILD, duration=0:00:00.481, duration_ms=481, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-04 21:32:01], mode=BUILD, duration=0:00:00.521, duration_ms=521, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-04 21:33:34], mode=BUILD, duration=0:00:01.087, duration_ms=1087, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-04 21:34:31], mode=PLATFORM_GENERATION, duration=0:00:34.713, duration_ms=34713, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-04 21:34:31], mode=BUILD, duration=0:00:00.206, duration_ms=206, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=true}
+timestamp=[2025-08-04 21:34:32], mode=BUILD, duration=0:00:00.205, duration_ms=205, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=true}
+timestamp=[2025-08-04 21:36:19], mode=PLATFORM_GENERATION, duration=0:01:42.463, duration_ms=102463, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-04 21:36:25], mode=BUILD, duration=0:00:06.243, duration_ms=6243, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-04 21:40:05], mode=BUILD, duration=0:00:01.283, duration_ms=1283, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-04 21:40:16], mode=BUILD, duration=0:00:10.602, duration_ms=10602, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-04 22:05:39], mode=PLATFORM_GENERATION, duration=0:00:52.306, duration_ms=52306, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-04 22:05:39], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-04 22:05:51], mode=BUILD, duration=0:00:10.743, duration_ms=10743, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 14:50:31], mode=PLATFORM_GENERATION, duration=0:00:48.402, duration_ms=48402, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 14:50:39], mode=BUILD, duration=0:00:06.638, duration_ms=6638, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 14:57:29], mode=BUILD, duration=0:00:00.663, duration_ms=663, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 15:04:34], mode=PLATFORM_GENERATION, duration=0:00:50.372, duration_ms=50372, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 15:04:41], mode=BUILD, duration=0:00:07.143, duration_ms=7143, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 15:08:53], mode=PLATFORM_GENERATION, duration=0:00:45.772, duration_ms=45772, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 15:09:01], mode=BUILD, duration=0:00:07.953, duration_ms=7953, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 15:09:13], mode=BUILD, duration=0:00:11.176, duration_ms=11176, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 15:11:08], mode=BUILD, duration=0:00:01.263, duration_ms=1263, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 15:11:20], mode=BUILD, duration=0:00:11.176, duration_ms=11176, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 15:17:55], mode=PLATFORM_GENERATION, duration=0:00:50.266, duration_ms=50266, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 15:18:03], mode=BUILD, duration=0:00:08.217, duration_ms=8217, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 15:19:52], mode=PLATFORM_GENERATION, duration=0:00:49.397, duration_ms=49397, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 15:19:59], mode=BUILD, duration=0:00:06.679, duration_ms=6679, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 15:22:18], mode=PLATFORM_GENERATION, duration=0:00:51.308, duration_ms=51308, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 15:22:28], mode=BUILD, duration=0:00:08.687, duration_ms=8687, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 15:24:40], mode=PLATFORM_GENERATION, duration=0:00:17.257, duration_ms=17257, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 15:24:40], mode=BUILD, duration=0:00:00.285, duration_ms=285, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=true}
+timestamp=[2025-08-05 15:24:40], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=true}
+timestamp=[2025-08-05 15:24:45], mode=PLATFORM_GENERATION, duration=0:00:04.752, duration_ms=4752, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 15:27:16], mode=PLATFORM_GENERATION, duration=0:02:20.338, duration_ms=140338, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 15:27:23], mode=BUILD, duration=0:00:06.819, duration_ms=6819, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 15:27:37], mode=BUILD, duration=0:00:13.261, duration_ms=13261, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 15:35:20], mode=PLATFORM_GENERATION, duration=0:00:17.963, duration_ms=17963, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 15:35:25], mode=PLATFORM_GENERATION, duration=0:00:04.869, duration_ms=4869, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 15:35:25], mode=BUILD, duration=0:00:00.275, duration_ms=275, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=true}
+timestamp=[2025-08-05 15:35:25], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=true}
+timestamp=[2025-08-05 15:35:48], mode=PLATFORM_GENERATION, duration=0:00:04.418, duration_ms=4418, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 15:35:49], mode=BUILD, duration=0:00:00.285, duration_ms=285, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=true}
+timestamp=[2025-08-05 15:35:49], mode=BUILD, duration=0:00:00.237, duration_ms=237, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=true}
+timestamp=[2025-08-05 15:38:09], mode=PLATFORM_GENERATION, duration=0:02:12.289, duration_ms=132289, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 15:38:17], mode=BUILD, duration=0:00:07.679, duration_ms=7679, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 15:38:30], mode=BUILD, duration=0:00:12.555, duration_ms=12555, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 16:00:00], mode=BUILD, duration=0:00:02.863, duration_ms=2863, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 16:00:23], mode=BUILD, duration=0:00:03.775, duration_ms=3775, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 16:00:35], mode=BUILD, duration=0:00:11.096, duration_ms=11096, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 16:04:19], mode=BUILD, duration=0:00:03.843, duration_ms=3843, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 16:04:30], mode=BUILD, duration=0:00:11.046, duration_ms=11046, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 16:18:21], mode=PLATFORM_GENERATION, duration=0:00:16.670, duration_ms=16670, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 16:20:43], mode=PLATFORM_GENERATION, duration=0:02:22.170, duration_ms=142170, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 16:20:54], mode=BUILD, duration=0:00:09.550, duration_ms=9550, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 16:24:02], mode=PLATFORM_GENERATION, duration=0:00:16.978, duration_ms=16978, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 16:24:09], mode=PLATFORM_GENERATION, duration=0:00:04.478, duration_ms=4478, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 16:24:10], mode=BUILD, duration=0:00:00.253, duration_ms=253, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=true}
+timestamp=[2025-08-05 16:24:10], mode=BUILD, duration=0:00:00.254, duration_ms=254, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=true}
+timestamp=[2025-08-05 16:26:48], mode=PLATFORM_GENERATION, duration=0:02:30.116, duration_ms=150116, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 16:26:59], mode=BUILD, duration=0:00:10.945, duration_ms=10945, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 16:27:15], mode=BUILD, duration=0:00:15.464, duration_ms=15464, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-05 16:32:05], mode=PLATFORM_GENERATION, duration=0:00:48.584, duration_ms=48584, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-05 16:32:13], mode=BUILD, duration=0:00:07.681, duration_ms=7681, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 00:12:04], mode=WORKBENCH_START, duration=0:00:17.607, duration_ms=17607, data={}
+timestamp=[2025-08-06 00:12:05], mode=WORKBENCH_UI_INIT, duration=0:00:00.381, duration_ms=381, data={editors_count=10, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=Ethernet_DDR_Test,Ethernet_DDR_Test_system,RemoteSystemsTempFiles,Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-06 00:12:08], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.543, duration_ms=2543, data={}
+timestamp=[2025-08-06 00:12:39], mode=PLATFORM_GENERATION, duration=0:00:22.734, duration_ms=22734, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-06 00:13:25], mode=PLATFORM_GENERATION, duration=0:00:04.474, duration_ms=4474, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-06 00:13:25], mode=BUILD, duration=0:00:00.299, duration_ms=299, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=true}
+timestamp=[2025-08-06 00:13:26], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=true}
+timestamp=[2025-08-06 00:19:33], mode=PLATFORM_GENERATION, duration=0:02:03.943, duration_ms=123943, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-06 00:19:57], mode=BUILD, duration=0:00:06.494, duration_ms=6494, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 00:20:09], mode=BUILD, duration=0:00:11.716, duration_ms=11716, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 00:30:41], mode=BUILD, duration=0:00:04.008, duration_ms=4008, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 00:30:53], mode=BUILD, duration=0:00:11.840, duration_ms=11840, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 00:32:39], mode=BUILD, duration=0:00:03.520, duration_ms=3520, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 00:32:51], mode=BUILD, duration=0:00:10.846, duration_ms=10846, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 00:36:53], mode=BUILD, duration=0:00:04.002, duration_ms=4002, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 00:37:06], mode=BUILD, duration=0:00:12.046, duration_ms=12046, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 00:58:29], mode=BUILD, duration=0:00:01.420, duration_ms=1420, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 00:58:40], mode=BUILD, duration=0:00:10.779, duration_ms=10779, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 16:17:12], mode=WORKBENCH_START, duration=0:00:15.085, duration_ms=15085, data={}
+timestamp=[2025-08-06 16:17:13], mode=WORKBENCH_UI_INIT, duration=0:00:00.777, duration_ms=777, data={editors_count=10, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=Ethernet_DDR_Test,Ethernet_DDR_Test_system,RemoteSystemsTempFiles,Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-06 16:17:17], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.723, duration_ms=2723, data={}
+timestamp=[2025-08-06 16:23:40], mode=PLATFORM_GENERATION, duration=0:00:16.282, duration_ms=16282, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-06 16:24:28], mode=BUILD, duration=0:00:02.928, duration_ms=2928, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 16:24:50], mode=BUILD, duration=0:00:20.579, duration_ms=20579, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 16:27:02], mode=BUILD, duration=0:00:02.163, duration_ms=2163, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 16:27:23], mode=BUILD, duration=0:00:20.312, duration_ms=20312, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 19:39:48], mode=BUILD, duration=0:00:03.976, duration_ms=3976, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-06 19:40:00], mode=BUILD, duration=0:00:11.403, duration_ms=11403, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-07 15:14:02], mode=WORKBENCH_START, duration=0:00:11.667, duration_ms=11667, data={}
+timestamp=[2025-08-07 15:14:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.203, duration_ms=203, data={editors_count=12, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Ethernet_DDR_Test,Ethernet_DDR_Test_system,RemoteSystemsTempFiles,Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-07 15:14:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.739, duration_ms=2739, data={}
+timestamp=[2025-08-07 15:29:16], mode=BUILD, duration=0:00:04.733, duration_ms=4733, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-07 15:29:28], mode=BUILD, duration=0:00:11.532, duration_ms=11532, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-07 15:37:32], mode=BUILD, duration=0:00:03.391, duration_ms=3391, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-07 15:37:43], mode=BUILD, duration=0:00:10.582, duration_ms=10582, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-07 15:39:52], mode=BUILD, duration=0:00:01.157, duration_ms=1157, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-07 15:40:03], mode=BUILD, duration=0:00:10.422, duration_ms=10422, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-07 15:41:36], mode=PLATFORM_GENERATION, duration=0:00:12.011, duration_ms=12011, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-07 15:41:37], mode=BUILD, duration=0:00:01.227, duration_ms=1227, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-07 15:41:49], mode=BUILD, duration=0:00:10.981, duration_ms=10981, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-07 15:43:45], mode=BUILD, duration=0:00:03.310, duration_ms=3310, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-07 15:43:56], mode=BUILD, duration=0:00:10.558, duration_ms=10558, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-07 15:45:29], mode=BUILD, duration=0:00:01.158, duration_ms=1158, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-07 15:45:40], mode=BUILD, duration=0:00:10.776, duration_ms=10776, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 16:56:50], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.820, duration_ms=1820, data={}
+timestamp=[2025-08-08 16:58:27], mode=WORKBENCH_START, duration=0:01:49.734, duration_ms=109734, data={}
+timestamp=[2025-08-08 16:58:28], mode=WORKBENCH_UI_INIT, duration=0:00:00.447, duration_ms=447, data={editors_count=12, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Ethernet_DDR_Test,Ethernet_DDR_Test_system,RemoteSystemsTempFiles,Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-08 17:08:11], mode=BUILD, duration=0:00:04.474, duration_ms=4474, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:08:24], mode=BUILD, duration=0:00:11.786, duration_ms=11786, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:09:31], mode=BUILD, duration=0:00:03.569, duration_ms=3569, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:09:42], mode=BUILD, duration=0:00:10.737, duration_ms=10737, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:12:26], mode=BUILD, duration=0:00:03.369, duration_ms=3369, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:12:36], mode=BUILD, duration=0:00:10.353, duration_ms=10353, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:15:39], mode=BUILD, duration=0:00:03.484, duration_ms=3484, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:15:50], mode=BUILD, duration=0:00:10.697, duration_ms=10697, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:18:42], mode=PLATFORM_GENERATION, duration=0:00:09.947, duration_ms=9947, data={name=Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-08 17:18:46], mode=BUILD, duration=0:00:03.717, duration_ms=3717, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:18:58], mode=BUILD, duration=0:00:11.235, duration_ms=11235, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:32:43], mode=BUILD, duration=0:00:00.275, duration_ms=275, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:32:56], mode=BUILD, duration=0:00:11.964, duration_ms=11964, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:37:29], mode=BUILD, duration=0:00:04.053, duration_ms=4053, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:37:41], mode=BUILD, duration=0:00:11.454, duration_ms=11454, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:40:45], mode=BUILD, duration=0:00:04.481, duration_ms=4481, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:40:57], mode=BUILD, duration=0:00:11.651, duration_ms=11651, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:43:03], mode=BUILD, duration=0:00:01.249, duration_ms=1249, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:43:15], mode=BUILD, duration=0:00:11.350, duration_ms=11350, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:45:27], mode=BUILD, duration=0:00:04.341, duration_ms=4341, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:45:38], mode=BUILD, duration=0:00:11.032, duration_ms=11032, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:47:09], mode=BUILD, duration=0:00:01.255, duration_ms=1255, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:47:23], mode=BUILD, duration=0:00:13.723, duration_ms=13723, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:53:54], mode=BUILD, duration=0:00:03.628, duration_ms=3628, data={name=Ethernet_DDR_Test, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 17:54:06], mode=BUILD, duration=0:00:10.870, duration_ms=10870, data={name=Ethernet_DDR_Test_system, configuration=Debug, clean_build=false}
+timestamp=[2025-08-08 23:42:37], mode=WORKBENCH_START, duration=0:00:12.020, duration_ms=12020, data={}
+timestamp=[2025-08-08 23:42:38], mode=WORKBENCH_UI_INIT, duration=0:00:00.832, duration_ms=832, data={editors_count=12, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=Ethernet_DDR_Test,Ethernet_DDR_Test_system,RemoteSystemsTempFiles,Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-08 23:42:42], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.238, duration_ms=2238, data={}
+timestamp=[2025-08-10 20:51:46], mode=WORKBENCH_START, duration=0:00:29.891, duration_ms=29891, data={}
+timestamp=[2025-08-10 20:51:46], mode=WORKBENCH_UI_INIT, duration=0:00:00.264, duration_ms=264, data={editors_count=12, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=Ethernet_DDR_Test,Ethernet_DDR_Test_system,RemoteSystemsTempFiles,Shrinking_Layer_DDR_Test_wrapper_1}
+timestamp=[2025-08-10 20:51:49], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.973, duration_ms=1973, data={}

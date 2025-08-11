@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Ethernet_DDR_Test" location="D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Ethernet_DDR_Test" platform="D:/FSRCNN/Shrinking_Layer_DDR_Test/workspace/Shrinking_Layer_DDR_Test_wrapper_1/export/Shrinking_Layer_DDR_Test_wrapper_1/Shrinking_Layer_DDR_Test_wrapper_1.xpfm" platformUID="xilinx:zcu102::0.0(custom)" systemProject="Ethernet_DDR_Test_system" sysConfig="Shrinking_Layer_DDR_Test_wrapper_1" runtime="cpp" cpu="standalone_psu_cortexa53_0" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="28859eae6e19f5ea662e2f280cef7056">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.1444598396">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.912685425" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="lwip_echo_server" hasBspSettings="true"/>
+</sdkproject:SdkProject>

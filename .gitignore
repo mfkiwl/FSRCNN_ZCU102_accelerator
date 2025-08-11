@@ -1,0 +1,25 @@
+# Shrinking_Layer_DDR_Test 폴더 안의 모든 파일/폴더 무시
+Shrinking_Layer_DDR_Test/**
+
+# Shrinking_Layer_DDR_Test 폴더 자체는 포함
+!Shrinking_Layer_DDR_Test/
+
+# 필요한 파일/폴더만 예외 처리
+!Shrinking_Layer_DDR_Test/*.xpr
+!Shrinking_Layer_DDR_Test/srcs/
+!Shrinking_Layer_DDR_Test/srcs/**
+!Shrinking_Layer_DDR_Test/bd/
+!Shrinking_Layer_DDR_Test/bd/**
+!Shrinking_Layer_DDR_Test/workspace/
+!Shrinking_Layer_DDR_Test/workspace/**
+
+# Vivado 자동 생성 폴더 무시
+*.jou
+*.log
+*.str
+.runs/
+.cache/
+.hw/
+.gen/
+.Xil/
+webtalk/
