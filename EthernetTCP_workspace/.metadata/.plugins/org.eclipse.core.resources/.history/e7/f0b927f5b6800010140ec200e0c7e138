@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="ethernet_tcp_test" location="D:/FSRCNN/EthernetTCP_workspace/ethernet_tcp_test" platform="D:/FSRCNN/EthernetTCP_workspace/BicubicDDRTest_wrapper_bicubicFixed/export/BicubicDDRTest_wrapper_bicubicFixed/BicubicDDRTest_wrapper_bicubicFixed.xpfm" platformUID="xilinx:zcu102::0.0(custom)" systemProject="ethernet_tcp_test_system" sysConfig="BicubicDDRTest_wrapper_bicubicFixed" runtime="cpp" cpu="standalone_psu_cortexa53_0" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="4ae6f4814b5a22a599f2e1d8b567fa50">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.20093627">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.2086806378" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="lwip_echo_server" hasBspSettings="true"/>
+</sdkproject:SdkProject>
