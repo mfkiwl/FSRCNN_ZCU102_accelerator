@@ -16,7 +16,7 @@
 ### 🔹 **Suhwan Jo**  
 - **GitHub**: [suhwanJo03](https://github.com/suhwanJo03)  
 - **Role**: Shrinking & Expanding Layer RTL Design, TCP Transport Firmware Design  
-- **Repo in Detail**: [FSRCNN_Layers_CustomIPs](https://github.com/suhwanJo03/FSRCNN_Layers_CustomIPs)
+- **Repo in Detail**: [FSRCNN_Layers_CustomIPs](https://github.com/suhwanJo03/FSRCNN_Layers_CustomIPs), 
                       [Ethernet_TCP_Verification](https://github.com/suhwanJo03/Ethernet_TCP_Verification)
 
 ---
